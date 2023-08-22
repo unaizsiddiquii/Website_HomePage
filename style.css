@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&family=Roboto:wght@400;700&display=swap');
 
 /* Reset */
 
@@ -66,7 +66,7 @@ ul {
 
 .secondry-button {
     border: 0.5px solid var(--secondry-text-color);
-    color: var(--primary-text-color) ;
+    color: var(--primary-text-color);
     border-radius: 6px;
     font-weight: 700;
     padding: 12px 24px;
@@ -75,7 +75,7 @@ ul {
 
 .secondry-button:hover {
     border: 0.5px solid var(--accect-color);
-    color: var(--accent-colorr) !important;
+    color: var(--accent-color);
 
 }
 
@@ -123,7 +123,7 @@ ul {
 }
 
 .nav-links {
-    flex-basis: 730px;
+    flex-direction: 600px;
 }
 
 .nav-links ul {
@@ -138,4 +138,209 @@ ul {
 
 .hover-link:hover {
     color: var(--accect-color);
+}
+
+/* hero section */
+
+header {
+    padding: 50px var(--padding-inline-section);
+}
+
+.header-section {
+    justify-content: center;
+    gap: 50px;
+}
+
+.header-left {
+    max-width: 40vw;
+
+}
+
+.header-left h1 {
+    margin-top: 20px;
+
+}
+
+.header-left p {
+    margin-block: 10px;
+
+}
+
+.get-started-button {
+    margin-top: 20px;
+}
+
+.header-right img {
+    width: 600px;
+
+}
+
+/* companies section */
+
+.companies-header {
+    text-align: center;
+    margin-block: 30px;
+    color: var(--primary-text-color);
+
+}
+
+.logo {
+    height: 46px;
+}
+
+.logos {
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+/* features header */
+
+.features-section {
+    padding: 80px var(--padding-inline-section) 0;
+
+}
+
+
+.features-header {
+    text-align: center;
+}
+
+.features-heading-text {
+    margin-bottom: 20px;
+}
+
+.features-area {
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.features-card img{
+    width: 50px;
+}
+.features-card {
+    flex-direction: column;
+    margin-top: 50px;
+    gap: 15px;
+    max-width: 30%;
+    text-align: center;
+}
+
+/* big features section */
+
+
+.big-features-section {
+    padding: 30px var(--padding-inline-section) 0;
+}
+
+.big-features-container {
+    gap: 30px;
+}
+
+.features-img img {
+    width: 100%;
+}
+
+.features-desc {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.flex-direction {
+    flex-direction: row-reverse;
+}
+
+/* example section*/
+
+.example-section-heading {
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+
+.examples-card {
+    justify-content: s;
+    width: 23%;
+    position: relative;
+    min-height: 300px;
+    background: black;
+    background: linear-gradient(rgb(0, 0, 0, 0.1), rgb(0, 0, 0, 0.8)), url(./assets/asset\ 36.jpeg);
+    background-size: cover;
+    transition: 0.3s, ease-out;
+
+}
+
+.examples-card:nth-child(2) {
+
+
+    background: linear-gradient(rgb(0, 0, 0, 0.1), rgb(0, 0, 0, 0.8)), url(./assets/asset\ 37.jpeg);
+    background-size: cover;
+}
+
+.examples-card:nth-child(3) {
+
+
+    background: linear-gradient(rgb(0, 0, 0, 0.1), rgb(0, 0, 0, 0.8)), url(./assets/asset\ 38.jpeg);
+    background-size: cover;
+}
+
+.examples-card:nth-child(4) {
+
+
+    background: linear-gradient(rgb(0, 0, 0, 0.1), rgb(0, 0, 0, 0.8)), url(./assets/asset\ 39.jpeg);
+    background-size: cover;
+}
+
+.examples-area {
+    justify-content: space-between;
+    margin-bottom: 40px;
+
+}
+
+.examples-card:hover {
+    box-shadow: 0 0 11px #888;
+}
+
+
+.card-text {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    right: 20px;
+    color: white;
+
+}
+
+/* cta section */
+
+.cta-section {
+    background: var(--primary-text-color);
+    color: white;
+}
+
+/*  footer */
+footer {
+    padding-block: 80px;
+    background-color: #ebf2fa;
+}
+
+.link-column {
+    flex-direction: column;
+    gap: 20px;
+    align-items: flex-start;
+}
+
+.footer-container {
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+/* sub footer */
+.subfooter {
+    padding-block: 20px;
+    background-color: #b9cde4;
+}
+
+.sub-footer-link {
+    justify-content: center;
+    gap: 30px;
 }
